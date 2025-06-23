@@ -95,7 +95,7 @@ vi run_exporter.py  # 주석 처리된 부분을 본인 환경에 맞게 수정(
 ### 데이터 추출 전 준비 <a id="데이터-추출-전-준비"></a>
 
 ⚠️ **TurtleBot3에서 2D Pose Estimate를 설정해야 `/tf`·`/amcl_pose` 등 위치 관련 ROS 토픽을 정상 수신할 수 있다.**
-<img src="https://github.com/user-attachments/assets/83e34d34-c50c-4175-a7aa-c0f9e14e13a1" width="600" height="376"/>
+<img src="https://github.com/user-attachments/assets/2c3cbdc2-4001-448c-bcc9-4ebeb48377a6" width="600" height="376"/>
 
 
 
@@ -104,7 +104,7 @@ vi run_exporter.py  # 주석 처리된 부분을 본인 환경에 맞게 수정(
 
 결과 예시:
 
-<img src="https://github.com/user-attachments/assets/58c3cd2b-561e-4208-8b04-3e96dc5ffa8d" width="600" height="376"/>
+<img src="https://github.com/user-attachments/assets/d4d36a0c-2e0a-4367-afcc-348d2e74a3f3" width="600" height="376"/>
 
 ---
 ### 6. 배터리·위치 정보 추출 <a id="배터리위치-정보-추출"></a>
@@ -125,7 +125,7 @@ ros2 launch turtlebot3_navigation2 navigation2.launch.py   # 공식 가이드 �
 
 실행 결과
 
-![Image](https://github.com/user-attachments/assets/7ff4fd71-d6b1-405b-a30e-c62fc1b84f1f)
+![Image](https://github.com/user-attachments/assets/a9cebf17-2d5f-4f56-a9f9-5f15f6ef1c07)
 
 > **중요** SLAM 단계에서 생성한 맵(.pgm & .yaml)을 저장한 뒤 Navigation을 실행해야 위치 토픽이 정상적으로 게시된다.
 
