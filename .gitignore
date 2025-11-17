@@ -1,3 +1,7 @@
 # Docker images directory
 scripts/k3s/docker_images/
 
+# K3s binaries / airgap assets
+scripts/k3s/k3s
+scripts/k3s/k3s-airgap-assets-v1.33.4+k3s1-arm64/
+
